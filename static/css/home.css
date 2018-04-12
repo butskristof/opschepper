@@ -26,17 +26,19 @@ Styles specifically for home page
   #jumbo_main #jumbobtn {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    border-radius: 0px; }
+    border-radius: 0px;
+    color: white;
+    border: 1px solid white; }
   #jumbo_main a {
     background-color: transparent; }
   #jumbo_main a:hover {
-    background-color: #6c757d; }
+    background-color: #42150e; }
 
 #jumbo_sec {
   background-image: url("/static/img/foto/tafel.jpg");
   height: 75vh; }
   #jumbo_sec .container {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.6);
     text-align: center; }
     #jumbo_sec .container img {
       width: 50%; }

@@ -1,6 +1,6 @@
 <?php $this->layout('template', ['title' => 'Opschepper', 'id' => 'home', 'extracss' => 'static/css/home.css']) ?>
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
 	<div class="container">
 		<a class="navbar-brand logo" href="#jumbo_main">
 			Opschepper
@@ -39,7 +39,7 @@
 <div class="jumbotron" id="jumbo_main">
 	<div class="container">
 		<h1 class="logo">Opschepper</h1>
-		<p><a href="#" class="btn btn-secondary btn-lg" id="jumbobtn">Doe mee</a></p>
+		<p><a href="#" class="btn btn-lg" id="jumbobtn">Doe mee</a></p>
 	</div><!-- /container -->
 </div><!-- /jumbotron -->
 

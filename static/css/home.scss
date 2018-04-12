@@ -37,14 +37,13 @@ Styles specifically for home page
 		font-size: 10em;
 	}
 
-	//.lead {
-	//	font-size: 2em;
-	//}
-
 	#jumbobtn {
 		-webkit-border-radius: 0px;
 		-moz-border-radius: 0px;
 		border-radius: 0px;
+
+		color: white;
+		border: 1px solid white;
 	}
 
 	a {
@@ -52,7 +51,7 @@ Styles specifically for home page
 	}
 
 	a:hover {
-		background-color: #6c757d;
+		background-color: #42150e;
 	}
 
 
@@ -63,7 +62,7 @@ Styles specifically for home page
 	height: 75vh;
 
 	.container {
-		background-color: rgba(255,255,255,0.8);
+		background-color: rgba(255,255,255,0.6);
 		text-align: center;
 
 		img {

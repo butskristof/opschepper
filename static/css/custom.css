@@ -12,5 +12,11 @@ body {
 .logo {
   font-family: "Hugs and Kisses xoxo", serif; }
 
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem; } }
+
 .navbar-brand {
-  font-size: 2em; }
+  font-size: 2em;
+  padding: 0; }

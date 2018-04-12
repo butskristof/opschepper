@@ -1,16 +1,21 @@
 /*
 Side-wide styles
  */
+
+// FONTS
+
+// load font from ttf
 @font-face {
 	font-family: 'Hugs and Kisses xoxo';
 	src: url("/static/img/logo/logo.ttf") format("truetype");
 }
 
+// set font variable
 $font-logo: 'Hugs and Kisses xoxo', serif;
 
 body {
 	padding-top: 3.5em; // adjust for sticky nav bar
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', sans-serif; // set default font for web page
 }
 
 // logo font
@@ -18,7 +23,19 @@ body {
 	font-family: $font-logo;
 }
 
+// NAVBAR
+
+// increase horizontal padding between menu items
+.navbar-expand-md .navbar-nav .nav-link {
+	@media (min-width: 768px) {
+		padding-right: 1rem;
+		padding-left: 1rem;
+	}
+}
+
+// increase brand in navbar size
 .navbar-brand {
 	font-size: 2em;
+	padding: 0;
 }
 
