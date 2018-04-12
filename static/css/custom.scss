@@ -1,6 +1,17 @@
+@font-face {
+	font-family: 'Hugs and Kisses xoxo';
+	src: url("/static/img/logo/logo.ttf") format("truetype");
+}
+
+$font-logo: 'Hugs and Kisses xoxo', serif;
+
 body {
 	padding-top: 3.5em; // adjust for sticky nav bar
 	font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+	font-family: $font-logo;
 }
 
 .jumbotron {
@@ -19,26 +30,33 @@ body {
 
 	.container {
 		padding: 20px;
-		background: rgba(255, 255, 255, 0.6);
+		//background: rgba(255, 255, 255, 0.6);
 
 		h1 {
-			margin: 0;
+			color: white;
 		}
 	}
 }
 
 #jumbo_main {
-	//background-image: url("/static/img/bg/bg1.jpg");
-	background-color: #444444;
+	background-image: url("/static/img/foto/background.png");
+	//background-color: #444444;
 	height: 65vh;
 
 	text-align: center;
 
 	h1 {
-		font-size: 5em;
+		font-size: 10em;
 	}
 
 	.lead {
 		font-size: 2em;
+	}
+}
+
+.info_col {
+	text-align: center;
+	p {
+		text-align: justify;
 	}
 }
