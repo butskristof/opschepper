@@ -1,2 +1,29 @@
 body {
+  padding-top: 3.5em;
   font-family: 'Quicksand', sans-serif; }
+
+.jumbotron {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  margin: 0;
+  display: flex;
+  align-items: center; }
+  .jumbotron .container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6); }
+    .jumbotron .container h1 {
+      margin: 0; }
+
+#jumbo_main {
+  background-color: #444444;
+  height: 65vh;
+  text-align: center; }
+  #jumbo_main h1 {
+    font-size: 5em; }
+  #jumbo_main .lead {
+    font-size: 2em; }
