@@ -1,0 +1,118 @@
+/*
+Styles specifically for home page
+ */
+
+.jumbotron {
+	// parallax effect
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	// remove rounded corners
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin: 0;
+
+	// vertical center container
+	display: flex;
+	align-items: center;
+
+	.container {
+		padding: 20px;
+
+		h1 {
+			color: white;
+		}
+	}
+}
+
+#jumbo_main {
+	background-image: url("/static/img/foto/background.png");
+	height: 70vh;
+
+	text-align: center;
+
+	h1 {
+		font-size: 10em;
+	}
+
+	//.lead {
+	//	font-size: 2em;
+	//}
+
+	#jumbobtn {
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+
+	a {
+		background-color: transparent;
+	}
+
+	a:hover {
+		background-color: #6c757d;
+	}
+
+
+}
+
+#jumbo_sec {
+	background-image: url("/static/img/foto/tafel.jpg");
+	height: 75vh;
+
+	.container {
+		background-color: rgba(255,255,255,0.8);
+		text-align: center;
+
+		img {
+			width: 50%;
+		}
+	}
+}
+
+.row {
+	margin: 20px 0;
+}
+
+.info_row {
+	text-align: center;
+
+	// vertical center container
+	display: flex;
+	align-items: center;
+
+	p {
+		text-align: justify;
+	}
+}
+
+#hoe, #overons {
+	img {
+		width: 50%;
+	}
+}
+
+form {
+	.btn {
+		display: block;
+		width: 200px;
+		margin: 0 auto;
+	}
+}
+
+#contactcol {
+	// vertical center container
+	display: flex;
+	align-items: center;
+}
+
+.icons {
+	font-size: 1.5em;
+	line-height: 2em;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+}

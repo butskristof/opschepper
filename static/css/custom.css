@@ -1,3 +1,6 @@
+/*
+Side-wide styles
+ */
 @font-face {
   font-family: 'Hugs and Kisses xoxo';
   src: url("/static/img/logo/logo.ttf") format("truetype"); }
@@ -9,32 +12,5 @@ body {
 .logo {
   font-family: "Hugs and Kisses xoxo", serif; }
 
-.jumbotron {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin: 0;
-  display: flex;
-  align-items: center; }
-  .jumbotron .container {
-    padding: 20px; }
-    .jumbotron .container h1 {
-      color: white; }
-
-#jumbo_main {
-  background-image: url("/static/img/foto/background.png");
-  height: 65vh;
-  text-align: center; }
-  #jumbo_main h1 {
-    font-size: 10em; }
-  #jumbo_main .lead {
-    font-size: 2em; }
-
-.info_col {
-  text-align: center; }
-  .info_col p {
-    text-align: justify; }
+.navbar-brand {
+  font-size: 2em; }
