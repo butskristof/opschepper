@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
 	<div class="container">
-		<a class="navbar-brand logo" href="#jumbo_main">
+		<a class="navbar-brand logo" href="#">
 			Opschepper
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,6 +36,8 @@
 	</div><!-- /container -->
 </nav>
 
+<!-- MAIN JUMBOTRON -->
+
 <div class="jumbotron" id="jumbo_main">
 	<div class="container">
 		<h1 class="logo">Opschepper</h1>
@@ -43,10 +45,17 @@
 	</div><!-- /container -->
 </div><!-- /jumbotron -->
 
+
 <div class="container">
-	<div class="row info_row" id="hoe">
+
+	<!-- HOE -->
+
+	<section class="row info_row" id="hoe">
+
 		<h2>Hoe werkt het?</h2>
+
 		<div class="row">
+
 			<div class="col-md-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
 				<h3>Wij verzamelen voedseloverschotten</h3>
@@ -59,44 +68,59 @@
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
 				<h3>Enjoy & save the environment</h3>
 			</div><!-- /col-md-4 -->
-		</div><!-- /row -->
-	</div>
 
-	<div class="row info_row" id="missie">
+		</div><!-- /row -->
+
+	</section><!-- /row info_row -->
+
+	<!-- MISSIE -->
+
+	<section class="row info_row" id="missie">
+
 		<h2>Missie</h2>
-		<div class="row">
+
+		<div class="row" id="missie_row">
+
 			<div class="col-md-9">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aut haec tibi, Torquate, sunt vituperanda aut patrocinium voluptatis repudiandum. Quamquam tu hanc copiosiorem etiam soles dicere. Duo Reges: constructio interrete. Quid me istud rogas? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Iam doloris medicamenta illa Epicurea tamquam de narthecio proment: Si gravis, brevis; Traditur, inquit, ab Epicuro ratio neglegendi doloris. Quodsi ipsam honestatem undique pertectam atque absolutam. Quis enim est, qui non videat haec esse in natura rerum tria? Bona autem corporis huic sunt, quod posterius posui, similiora.</p>
 			</div><!-- /col-md-9 -->
+
 			<div class="col-md-3">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
 			</div><!-- /col-md-3 -->
+
 		</div><!-- /row -->
-	</div><!-- /row -->
+
+	</section><!-- /row -->
 
 </div><!-- /container -->
 
 <div class="jumbotron" id="jumbo_sec">
-	<div class="container" id="overons">
+
+	<section class="container info_row" id="overons">
+
 		<h2>Over ons</h2>
+
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
-			</div><!-- /col-md-4 -->
-			<div class="col-md-4">
+			</div><!-- /col-4 -->
+			<div class="col-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
-			</div><!-- /col-md-4 -->
-			<div class="col-md-4">
+			</div><!-- /col-4 -->
+			<div class="col-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
 			</div><!-- /col-md-4 -->
 		</div><!-- /row -->
 		<p class="lead">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque ad tempus ad Pisonem omnes. De illis, cum volemus. Minime vero istorum quidem, inquit. Longum est enim ad omnia respondere, quae a te dicta sunt. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
 		</p>
-	</div><!-- /container -->
+
+	</section><!-- /container -->
+
 </div><!-- /jumbotron -->
 
-<div class="container" id="contact">
+<section class="container" id="contact">
 	<h2>Contact</h2>
 	<div class="row">
 		<div class="col-md-6">
@@ -114,7 +138,9 @@
 					<label for="content">Uw bericht</label>
 					<textarea class="form-control" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
 				</div>
-				<button type="submit" class="btn btn-secondary">Versturen</button>
+
+				<button type="submit" class="btn">Versturen</button>
+
 			</form>
 		</div><!-- /col-md-6 -->
 		<div class="col-md-6" id="contactcol">
@@ -138,5 +164,5 @@
 			</span>
 		</div><!-- /col-md-6 -->
 	</div><!-- /row -->
-</div><!-- /container -->
+</section><!-- /container -->
 
