@@ -1,8 +1,10 @@
 <?php $this->layout('template', ['title' => 'Opschepper', 'id' => 'home', 'extracss' => 'static/css/home.css']) ?>
 
+<!-- NAVIGATION -->
+
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
 	<div class="container">
-		<a class="navbar-brand logo" href="#">
+		<a href="#" class="navbar-brand logo">
 			Opschepper
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +34,19 @@
 					</a>
 				</li>
 			</ul>
-		</div><!-- /collapse -->
+		</div><!-- /collapse navbar-collapse -->
+
 	</div><!-- /container -->
 </nav>
 
-<!-- MAIN JUMBOTRON -->
-
 <div class="jumbotron" id="jumbo_main">
 	<div class="container">
-		<h1 class="logo">Opschepper</h1>
-		<p><a href="#" class="btn btn-lg" id="jumbobtn">Doe mee</a></p>
+		<h1 class="logo">
+			Opschepper
+		</h1>
+		<p><a href="#" class="btn btn-lg">Doe mee</a></p>
 	</div><!-- /container -->
 </div><!-- /jumbotron -->
-
 
 <div class="container">
 
@@ -62,67 +64,69 @@
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
-				<h3>Boek als 'eter/koker'</h3>
+				<h3>Boek als <br>
+					'eter/koker'</h3>
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
-				<h3>Enjoy & save the environment</h3>
+				<h3>Enjoy & <br>save the environment</h3>
 			</div><!-- /col-md-4 -->
 
 		</div><!-- /row -->
-
-	</section><!-- /row info_row -->
-
-	<!-- MISSIE -->
+	</section>
 
 	<section class="row info_row" id="missie">
 
 		<h2>Missie</h2>
 
 		<div class="row" id="missie_row">
-
-			<div class="col-md-9">
+			<div class="col-md-8">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aut haec tibi, Torquate, sunt vituperanda aut patrocinium voluptatis repudiandum. Quamquam tu hanc copiosiorem etiam soles dicere. Duo Reges: constructio interrete. Quid me istud rogas? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Iam doloris medicamenta illa Epicurea tamquam de narthecio proment: Si gravis, brevis; Traditur, inquit, ab Epicuro ratio neglegendi doloris. Quodsi ipsam honestatem undique pertectam atque absolutam. Quis enim est, qui non videat haec esse in natura rerum tria? Bona autem corporis huic sunt, quod posterius posui, similiora.</p>
-			</div><!-- /col-md-9 -->
-
-			<div class="col-md-3">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
-			</div><!-- /col-md-3 -->
-
+			</div><!-- /col-md-8 -->
+			<div class="col-md-4">
+				<img src="http://placehold.it/400x300" alt="" class="img-fluid">
+			</div><!-- /col-md-4 -->
 		</div><!-- /row -->
 
-	</section><!-- /row -->
+	</section>
 
 </div><!-- /container -->
 
 <div class="jumbotron" id="jumbo_sec">
 
 	<section class="container info_row" id="overons">
-
 		<h2>Over ons</h2>
 
 		<div class="row">
+
 			<div class="col-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
 			</div><!-- /col-4 -->
+
 			<div class="col-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
 			</div><!-- /col-4 -->
+
 			<div class="col-4">
 				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
-			</div><!-- /col-md-4 -->
+			</div><!-- /col-4 -->
+
 		</div><!-- /row -->
+
 		<p class="lead">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque ad tempus ad Pisonem omnes. De illis, cum volemus. Minime vero istorum quidem, inquit. Longum est enim ad omnia respondere, quae a te dicta sunt. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
 		</p>
 
-	</section><!-- /container -->
+	</section>
 
 </div><!-- /jumbotron -->
 
 <section class="container" id="contact">
+
 	<h2>Contact</h2>
+
 	<div class="row">
+
 		<div class="col-md-6">
 			<form action="/contact" role="form" method="post">
 				<!--				MODAL BODY-->
@@ -143,26 +147,35 @@
 
 			</form>
 		</div><!-- /col-md-6 -->
-		<div class="col-md-6" id="contactcol">
+
+		<div class="col-md-5 offset-md-1" id="contactcol">
+
 			<span class="icons">
+				<i class="fas fa-phone fa-lg"></i> +32 477 43 08 65 <br>
+
 				<!--			FB-->
 				<a href="https://facebook.com/kljwiekevorst" target="_blank">
 					<i class="fab fa-facebook fa-lg"></i> Facebook
 				</a><br>
+
 				<!--			INSTA-->
 				<a href="https://www.instagram.com/iclean1/" target="_blank">
 					<i class="fab fa-instagram fa-lg"></i> Instagram
 				</a><br>
+
 				<!--			EMAIL-->
 				<a href="#" data-toggle="modal" data-target="#contactModal">
 					<i class="far fa-envelope fa-lg"></i> mail@opschepper.be
-					<!--	<button type="button" data-toggle="modal" data-target="#contactModal">Launch modal</button>-->
 				</a><br>
+
 				<!--			WHATSAPP -->
 				<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
-					<i class="fab fa-whatsapp fa-lg"></i>WhatsApp</a><br>
+					<i class="fab fa-whatsapp fa-lg"></i> WhatsApp</a><br>
+
 			</span>
 		</div><!-- /col-md-6 -->
+
 	</div><!-- /row -->
+
 </section><!-- /container -->
 

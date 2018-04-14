@@ -12,10 +12,10 @@ a.btn {
   color: white; }
 
 .btn:hover {
-  background-color: #42150e; }
+  background-color: #822a1b; }
 
 button.btn {
-  border: 1px solid #42150e;
+  border: 2px solid #822a1b;
   font-weight: bold;
   display: block;
   width: 200px;
@@ -46,7 +46,7 @@ button.btn:hover {
 
 #jumbo_main {
   background-image: url("/static/img/foto/background.png");
-  height: 70vh;
+  height: 75vh;
   text-align: center; }
   #jumbo_main h1 {
     font-size: 10em; }
@@ -59,17 +59,18 @@ button.btn:hover {
   height: 70vh; }
   @media (max-width: 768px) {
     #jumbo_sec {
-      height: 500px; }
+      height: 600px; }
       #jumbo_sec img {
         width: 100%; } }
   #jumbo_sec .container {
     background-color: rgba(255, 255, 255, 0.8); }
 
 section {
-  margin: 40px 0; }
+  margin: 40px 0;
+  padding: 10px; }
   section h2 {
     font-weight: bolder;
-    color: #42150e;
+    color: #822a1b;
     text-align: center;
     margin: 0 auto 30px auto;
     font-size: 2.5em; }
@@ -77,13 +78,16 @@ section {
 #missie_row {
   display: flex;
   align-items: center; }
+  #missie_row p {
+    text-align: justify; }
 
 .info_row {
   text-align: center; }
 
 #contactcol {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding: 20px; }
 
 .icons {
   font-size: 1.5em;

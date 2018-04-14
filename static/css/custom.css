@@ -18,5 +18,8 @@ body {
     padding-left: 1rem; } }
 
 .navbar-brand {
-  font-size: 2em;
+  font-size: 2.5em;
   padding: 0; }
+
+.navbar-collapse {
+  font-size: 1.2em; }

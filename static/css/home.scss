@@ -2,6 +2,8 @@
 Styles specifically for home page
  */
 
+$dark-red: #822a1b;
+
 .btn {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -17,11 +19,11 @@ a.btn {
 }
 
 .btn:hover {
-	background-color: #42150e;
+	background-color: $dark-red;
 }
 
 button.btn {
-	border: 1px solid #42150e;
+	border: 2px solid $dark-red;
 	font-weight: bold;
 
 	display: block;
@@ -66,7 +68,7 @@ button.btn:hover {
 
 #jumbo_main {
 	background-image: url("/static/img/foto/background.png");
-	height: 70vh;
+	height: 75vh;
 
 	text-align: center;
 
@@ -82,8 +84,9 @@ button.btn:hover {
 	background-image: url("/static/img/foto/tafel.jpg");
 	height: 70vh;
 
+
 	@media (max-width: 768px) {
-		height: 500px;
+		height: 600px;
 
 		img {
 			width: 100%;
@@ -97,10 +100,11 @@ button.btn:hover {
 
 section {
 	margin: 40px 0;
+	padding: 10px;
 
 	h2 {
 		font-weight: bolder;
-		color: #42150e;
+		color: $dark-red;
 		text-align: center;
 		//margin-bottom: 30px;
 		margin: 0 auto 30px auto; // is block element
@@ -113,9 +117,9 @@ section {
 	display: flex;
 	align-items: center;
 
-	//p {
-	//	text-align: justify;
-	//}
+	p {
+		text-align: justify;
+	}
 }
 
 .info_row {
@@ -126,6 +130,8 @@ section {
 	// vertical center container
 	display: flex;
 	align-items: center;
+
+	padding: 20px;
 }
 
 .icons {
