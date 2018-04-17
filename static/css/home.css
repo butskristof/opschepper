@@ -93,7 +93,7 @@ section {
   align-items: center;
   padding: 20px; }
 
-#contact a:hover {
+#contact p:hover, #contact a:hover {
   color: #822a1b; }
 
 .icons {

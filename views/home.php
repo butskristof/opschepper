@@ -44,7 +44,7 @@
 		<h1 class="logo">
 			Opschepper
 		</h1>
-		<p><a href="#" class="btn btn-lg">Doe mee</a></p>
+		<p><a href="#" class="btn btn-lg" data-toggle="modal" data-target="#applyModal">Doe mee</a></p>
 	</div><!-- /container -->
 </div><!-- /jumbotron -->
 
@@ -128,8 +128,8 @@
 	<div class="row">
 
 		<div class="col-md-6">
-			<form action="/contact" role="form" method="post">
-				<!--				MODAL BODY-->
+			<?php include 'partials/contactform.php'; ?>
+			<form action="/#contact" role="form" method="post">
 				<div class="form-group">
 					<label for="name">Naam</label>
 					<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" required>
@@ -142,30 +142,28 @@
 					<label for="content">Uw bericht</label>
 					<textarea class="form-control" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
 				</div>
-
 				<button type="submit" class="btn">Versturen</button>
-
 			</form>
 		</div><!-- /col-md-6 -->
 
 		<div class="col-md-5 offset-md-1" id="contactcol">
 
 			<span class="icons">
-				<i class="fas fa-phone fa-lg"></i> +32 486 73 95 59 <br>
+				<p>
+					<i class="fas fa-phone fa-lg"></i> +32 486 73 95 59<br>
+				</p>
 
 				<!--			FB-->
-				<a href="https://www.facebook.com/opschepperBE/" target="_blank">
-					<i class="fab fa-facebook fa-lg"></i> Facebook
-				</a><br>
+				<p>
+					<a href="https://www.facebook.com/opschepperBE/" target="_blank">
+						<i class="fab fa-facebook fa-lg"></i> Facebook
+					</a>
+				</p>
 
 				<!--			EMAIL-->
-				<a href="#" data-toggle="modal" data-target="#contactModal">
-					<i class="far fa-envelope fa-lg"></i> mail@opschepper.be
-				</a><br>
-
-				<!--			WHATSAPP -->
-				<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
-					<i class="fab fa-whatsapp fa-lg"></i> WhatsApp</a><br>
+				<p>
+					<i class="far fa-envelope fa-lg"></i> info@opschepper.be
+				</p>
 
 			</span>
 		</div><!-- /col-md-6 -->
@@ -173,4 +171,6 @@
 	</div><!-- /row -->
 
 </section><!-- /container -->
+
+<?php include 'partials/applymodal.php'; ?>
 
