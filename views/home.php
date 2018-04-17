@@ -151,16 +151,11 @@
 		<div class="col-md-5 offset-md-1" id="contactcol">
 
 			<span class="icons">
-				<i class="fas fa-phone fa-lg"></i> +32 477 43 08 65 <br>
+				<i class="fas fa-phone fa-lg"></i> +32 486 73 95 59 <br>
 
 				<!--			FB-->
-				<a href="https://facebook.com/kljwiekevorst" target="_blank">
+				<a href="https://www.facebook.com/opschepperBE/" target="_blank">
 					<i class="fab fa-facebook fa-lg"></i> Facebook
-				</a><br>
-
-				<!--			INSTA-->
-				<a href="https://www.instagram.com/iclean1/" target="_blank">
-					<i class="fab fa-instagram fa-lg"></i> Instagram
 				</a><br>
 
 				<!--			EMAIL-->

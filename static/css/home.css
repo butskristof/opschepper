@@ -1,6 +1,9 @@
 /*
 Styles specifically for home page
  */
+.navbar-brand {
+  color: #e2492f !important; }
+
 .btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -15,14 +18,15 @@ a.btn {
   background-color: #822a1b; }
 
 button.btn {
-  border: 2px solid #822a1b;
+  border: 2px solid #e2492f;
   font-weight: bold;
   display: block;
   width: 200px;
   margin: 0 auto; }
 
 button.btn:hover {
-  color: white; }
+  color: white;
+  background-color: #e2492f; }
 
 #hoe img, #overons img {
   width: 50%;
@@ -89,8 +93,11 @@ section {
   align-items: center;
   padding: 20px; }
 
+#contact a:hover {
+  color: #822a1b; }
+
 .icons {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 2em; }
   .icons a {
     text-decoration: none;

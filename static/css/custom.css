@@ -7,7 +7,7 @@ Side-wide styles
 
 body {
   padding-top: 3.5em;
-  font-family: 'Quicksand', sans-serif; }
+  font-family: 'IBM Plex Sans', sans-serif; }
 
 .logo {
   font-family: "Hugs and Kisses xoxo", serif; }
@@ -23,3 +23,6 @@ body {
 
 .navbar-collapse {
   font-size: 1.2em; }
+
+footer {
+  text-align: center; }

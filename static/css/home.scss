@@ -3,6 +3,11 @@ Styles specifically for home page
  */
 
 $dark-red: #822a1b;
+$logo-red: #e2492f;
+
+.navbar-brand {
+	color: $logo-red !important;
+}
 
 .btn {
 	-webkit-border-radius: 0;
@@ -23,7 +28,7 @@ a.btn {
 }
 
 button.btn {
-	border: 2px solid $dark-red;
+	border: 2px solid $logo-red;
 	font-weight: bold;
 
 	display: block;
@@ -32,6 +37,7 @@ button.btn {
 }
 button.btn:hover {
 	color: white;
+	background-color: $logo-red;
 }
 
 #hoe, #overons {
@@ -134,8 +140,14 @@ section {
 	padding: 20px;
 }
 
+#contact {
+	a:hover {
+		color: $dark-red;
+	}
+}
+
 .icons {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	line-height: 2em;
 	a {
 		text-decoration: none;

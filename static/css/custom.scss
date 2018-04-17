@@ -15,7 +15,9 @@ $font-logo: 'Hugs and Kisses xoxo', serif;
 
 body {
 	padding-top: 3.5em; // adjust for sticky nav bar
-	font-family: 'Quicksand', sans-serif; // set default font for web page
+	font-family: 'IBM Plex Sans', sans-serif;
+	//font-family: sans-serif;
+
 }
 
 // logo font
@@ -43,3 +45,6 @@ body {
 	font-size: 1.2em;
 }
 
+footer {
+	text-align: center;
+}
