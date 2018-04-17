@@ -2,16 +2,13 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<form action="#" role="form" method="post">
-				<div class="modal-header">
-					<h5 class="modal-title">Doe mee</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<div class="modal-body">
+					<button type="button" class="close pull-right" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
-				</div>
-				<div class="modal-body">
-<!--				MODAL BODY-->
 
-					<p>Text</p>
+					<p>&nbsp;</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales ipsum vitae lacus cursus convallis.</p>
 
 					<div class="form-group">
 						<label for="task">Ik wil</label>

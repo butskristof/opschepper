@@ -22,15 +22,26 @@ button.btn {
   font-weight: bold;
   display: block;
   width: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: white;
+  background-color: #e2492f; }
 
 button.btn:hover {
   color: white;
-  background-color: #e2492f; }
+  background-color: #822a1b;
+  border: 2px solid #822a1b; }
 
 #hoe img, #overons img {
   width: 50%;
   margin-bottom: 20px; }
+
+#hoe svg, #overons svg {
+  color: #e2492f; }
+
+#hoe img {
+  height: 200px;
+  padding: 30px;
+  width: auto; }
 
 .jumbotron {
   background-attachment: fixed;

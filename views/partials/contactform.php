@@ -33,7 +33,7 @@ if (!empty($_POST)) {
 
 	// If there are no errors, send the email
 	if (empty($errors)) {
-		if (mail ($to, $subject, $message, $headers)) {
+		if (mail($to, $subject, $message, $headers)) {
 			echo '<div class="alert alert-success">Bedankt voor uw bericht, we nemen zo snel mogelijk contact met u op.</div>';
 		} else {
 			echo '<div class="alert alert-danger">Er ging iets mis met het versturen van uw bericht, gelieve opnieuw te proberen.</div>';

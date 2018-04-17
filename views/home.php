@@ -59,16 +59,17 @@
 		<div class="row">
 
 			<div class="col-md-4">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
+<!--				<img src="http://placehold.it/400x400" alt="" class="img-fluid">-->
+				<img src="static/img/icons/icon1.svg" alt="Voedselpakket" class="img-fluid">
 				<h3>Wij verzamelen voedseloverschotten</h3>
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
+				<img src="static/img/icons/icon2.svg" alt="Voedselpakket" class="img-fluid">
 				<h3>Boek als <br>
 					'eter/koker'</h3>
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
+				<img src="static/img/icons/icon3.svg" alt="Voedselpakket" class="img-fluid">
 				<h3>Enjoy & <br>save the environment</h3>
 			</div><!-- /col-md-4 -->
 
@@ -100,15 +101,15 @@
 		<div class="row">
 
 			<div class="col-4">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
+				<img src="/static/img/foto/Laurens.png" alt="Laurens" class="img-fluid">
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
+				<img src="/static/img/foto/Ward.png" alt="Laurens" class="img-fluid">
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="http://placehold.it/400x400" alt="" class="img-fluid">
+				<img src="/static/img/foto/Thomas.png" alt="Laurens" class="img-fluid">
 			</div><!-- /col-4 -->
 
 		</div><!-- /row -->
@@ -120,6 +121,8 @@
 	</section>
 
 </div><!-- /jumbotron -->
+
+<div id="contactbg">
 
 <section class="container" id="contact">
 
@@ -171,6 +174,7 @@
 	</div><!-- /row -->
 
 </section><!-- /container -->
+</div>
 
 <?php include 'partials/applymodal.php'; ?>
 
