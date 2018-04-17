@@ -59,18 +59,23 @@
 		<div class="row">
 
 			<div class="col-md-4">
-<!--				<img src="http://placehold.it/400x400" alt="" class="img-fluid">-->
+
 				<img src="static/img/icons/icon1.svg" alt="Voedselpakket" class="img-fluid">
 				<h3>Wij verzamelen voedseloverschotten</h3>
+
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
-				<img src="static/img/icons/icon2.svg" alt="Voedselpakket" class="img-fluid">
+
+				<img src="static/img/icons/icon2.svg" alt="Oude vrouw en jonge man" class="img-fluid">
 				<h3>Boek als <br>
 					'eter/koker'</h3>
+
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
-				<img src="static/img/icons/icon3.svg" alt="Voedselpakket" class="img-fluid">
+
+				<img src="static/img/icons/icon3.svg" alt="Kookpot" class="img-fluid">
 				<h3>Enjoy & <br>save the environment</h3>
+
 			</div><!-- /col-md-4 -->
 
 		</div><!-- /row -->
@@ -81,11 +86,17 @@
 		<h2>Missie</h2>
 
 		<div class="row" id="missie_row">
+
 			<div class="col-md-8">
+
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aut haec tibi, Torquate, sunt vituperanda aut patrocinium voluptatis repudiandum. Quamquam tu hanc copiosiorem etiam soles dicere. Duo Reges: constructio interrete. Quid me istud rogas? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Iam doloris medicamenta illa Epicurea tamquam de narthecio proment: Si gravis, brevis; Traditur, inquit, ab Epicuro ratio neglegendi doloris. Quodsi ipsam honestatem undique pertectam atque absolutam. Quis enim est, qui non videat haec esse in natura rerum tria? Bona autem corporis huic sunt, quod posterius posui, similiora.</p>
+
 			</div><!-- /col-md-8 -->
+
 			<div class="col-md-4">
+
 				<img src="http://placehold.it/400x300" alt="" class="img-fluid">
+
 			</div><!-- /col-md-4 -->
 		</div><!-- /row -->
 
@@ -96,6 +107,7 @@
 <div class="jumbotron" id="jumbo_sec">
 
 	<section class="container info_row" id="overons">
+
 		<h2>Over ons</h2>
 
 		<div class="row">
@@ -105,24 +117,24 @@
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="/static/img/foto/Ward.png" alt="Laurens" class="img-fluid">
+				<img src="/static/img/foto/Ward.png" alt="Ward" class="img-fluid">
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="/static/img/foto/Thomas.png" alt="Laurens" class="img-fluid">
+				<img src="/static/img/foto/Thomas.png" alt="Thomas" class="img-fluid">
 			</div><!-- /col-4 -->
 
 		</div><!-- /row -->
 
 		<p class="lead">
+
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque ad tempus ad Pisonem omnes. De illis, cum volemus. Minime vero istorum quidem, inquit. Longum est enim ad omnia respondere, quae a te dicta sunt. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
+
 		</p>
 
 	</section>
 
 </div><!-- /jumbotron -->
-
-<div id="contactbg">
 
 <section class="container" id="contact">
 
@@ -149,7 +161,11 @@
 			</form>
 		</div><!-- /col-md-6 -->
 
-		<div class="col-md-5 offset-md-1" id="contactcol">
+		<div class="col-md-1">
+			<p>&nbsp;</p>
+		</div><!-- /col-md-1 -->
+
+		<div class="col-md-5" id="contactcol">
 
 			<span class="icons">
 				<p>
@@ -174,7 +190,5 @@
 	</div><!-- /row -->
 
 </section><!-- /container -->
-</div>
 
 <?php include 'partials/applymodal.php'; ?>
-

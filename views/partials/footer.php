@@ -20,5 +20,23 @@
 		ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
 	</script>
 	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+	<script>
+		var $form = $('form#applyForm');
+		var url = "https://script.google.com/macros/s/AKfycbyDEVJaFJFATc8gooERnoej8DxdFOezGoamofakZRD4Zkga1_k/exec";
+
+		$('#submit-applyForm').on('click', function (e) {
+			e.preventDefault();
+            console.log($form.serialize());
+
+			var jqxhr = $.ajax({
+				url: url,
+				method: "GET",
+				dataType: "json",
+				data: $form.serialize()
+			});
+        });
+	</script>
+
 </body>
 </html>

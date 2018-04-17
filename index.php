@@ -17,9 +17,6 @@ switch ($request_uri[0]) {
 	case '/home':
 		echo $templates->render('home');
 		break;
-	case '/home2':
-		echo $templates->render('home2');
-		break;
 	default:
 		// TODO improve 404
 		header('HTTP/1.0 404 Not Found');
