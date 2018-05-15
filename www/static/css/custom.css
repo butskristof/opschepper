@@ -6,7 +6,7 @@ Side-wide styles
   src: url("/static/img/logo/logo.ttf") format("truetype"); }
 
 body {
-  padding-top: 3.5em;
+  padding-top: 5em;
   font-family: 'IBM Plex Sans', sans-serif; }
 
 ::selection {
