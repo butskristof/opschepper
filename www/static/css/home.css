@@ -53,11 +53,15 @@ button.btn:hover {
   border-radius: 0px;
   margin: 0;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */ }
   .jumbotron .container {
     padding: 20px; }
     .jumbotron .container h1 {
       color: white; }
+  @media only screen and (max-device-width: 1366px) {
+    .jumbotron {
+      background-attachment: scroll; } }
 
 #jumbo_main {
   background-image: url("/static/img/foto/background.png");
