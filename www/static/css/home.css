@@ -64,7 +64,7 @@ button.btn:hover {
       background-attachment: scroll; } }
 
 #jumbo_main {
-  background-image: url("/static/img/foto/background.png");
+  background-image: url("/static/img/foto/background.jpg");
   height: 75vh;
   text-align: center; }
   #jumbo_main h1 {
