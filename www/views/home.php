@@ -2,7 +2,7 @@
 
 <!-- NAVIGATION -->
 
-<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
 	<div class="container">
 		<a href="#" class="navbar-brand logo">
 			Opschepper

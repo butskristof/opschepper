@@ -42,6 +42,10 @@ body {
 
 // NAVBAR
 
+.bg-white {
+	background-color: white;
+}
+
 // increase horizontal padding between menu items
 .navbar-expand-md .navbar-nav .nav-link {
 	@media (min-width: 768px) {
