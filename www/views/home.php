@@ -52,7 +52,8 @@
 
 	<!-- HOE -->
 
-	<section class="row info_row" id="hoe">
+    <a class="anchor" id="hoe"></a>
+	<section class="row info_row" id="hoe_section">
 
 		<h2>Hoe werkt het?</h2>
 
@@ -81,7 +82,8 @@
 		</div><!-- /row -->
 	</section>
 
-	<section class="row info_row" id="missie">
+	<a class="anchor" id="missie"></a>
+	<section class="row info_row" id="missie_section">
 
 		<h2>Missie</h2>
 
@@ -104,9 +106,10 @@
 
 </div><!-- /container -->
 
+<a class="anchor" id="overons"></a>
 <div class="jumbotron" id="jumbo_sec">
 
-	<section class="container info_row" id="overons">
+	<section class="container info_row" id="overons_section">
 
 		<h2>Over ons</h2>
 
@@ -136,7 +139,8 @@
 
 </div><!-- /jumbotron -->
 
-<section class="container" id="contact">
+<a class="anchor" id="contact"></a>
+<section class="container" id="contact_section">
 
 	<h2>Contact</h2>
 

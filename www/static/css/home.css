@@ -31,14 +31,20 @@ button.btn:hover {
   background-color: #822a1b;
   border: 2px solid #822a1b; }
 
-#hoe img, #overons img {
+a.anchor {
+  display: block;
+  position: relative;
+  top: -5em;
+  visibility: hidden; }
+
+#hoe_section img, #overons_section img {
   width: 65%;
   margin-bottom: 30px; }
 
-#hoe svg, #overons svg {
+#hoe_section svg, #overons_section svg {
   color: #e2492f; }
 
-#hoe img {
+#hoe_section img {
   height: 200px;
   padding: 30px;
   width: auto; }

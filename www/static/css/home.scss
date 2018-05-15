@@ -44,7 +44,14 @@ button.btn:hover {
 	border: 2px solid $dark-red;
 }
 
-#hoe, #overons {
+a.anchor {
+	display: block;
+	position: relative;
+	top: -5em;
+	visibility: hidden;
+}
+
+#hoe_section, #overons_section {
 	img {
 		width: 65%;
 		margin-bottom: 30px;
@@ -56,7 +63,7 @@ button.btn:hover {
 
 }
 
-#hoe {
+#hoe_section {
 	img {
 		height: 200px;
 		padding: 30px;
