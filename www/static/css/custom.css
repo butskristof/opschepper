@@ -9,6 +9,14 @@ body {
   padding-top: 3.5em;
   font-family: 'IBM Plex Sans', sans-serif; }
 
+::selection {
+  background-color: #e2492f;
+  color: white; }
+
+::-moz-selection {
+  background-color: #e2492f;
+  color: white; }
+
 .logo {
   font-family: "Hugs and Kisses xoxo", serif; }
 
