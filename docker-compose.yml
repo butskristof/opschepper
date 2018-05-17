@@ -8,3 +8,4 @@ services:
             - "80:80"
         volumes:
             - ./www:/var/www/html
+            - ./secrets:/var/www/secrets
