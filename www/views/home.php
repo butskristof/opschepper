@@ -61,14 +61,14 @@
 
 			<div class="col-md-4">
 
-				<img src="static/img/icons/icon1.svg" alt="Voedselpakket" class="img-fluid">
+				<img src="static/img/icons/icon1.svg" alt="Oude vrouw en jonge man" class="img-fluid">
 				<h3>Schrijf je in</h3>
-				<p>om te koken of om te eten</p>
+				<p>om te koken of te eten. <br>Wij zorgen voor de rest.</p>
 
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
 
-				<img src="static/img/icons/icon2.svg" alt="Oude vrouw en jonge man" class="img-fluid">
+				<img src="static/img/icons/icon2.svg" alt="Voedselpakket" class="img-fluid">
 				<h3>Wij verzamelen voedseloverschotten</h3>
 				<p>en stellen op basis hiervan voedselboxen samen, die we thuis leveren bij de ‘opscheppers’.</p>
 
@@ -115,14 +115,14 @@
 
 		<h2>Over ons</h2>
 
-		<div class="row">
+		<div class="row" id="photorow">
 
 			<div class="col-4">
 				<picture>
 					<source media="(min-width: 769px)" srcset="/static/img/foto/Laurens.png">
 					<img src="/static/img/foto/Laurens_sm.png" alt="Laurens Somers" class="img-fluid">
 				</picture>
-				<p>Laurens Somers</p>
+				<p class="lead"><strong>Laurens Somers</strong></p>
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
@@ -130,7 +130,7 @@
 					<source media="(min-width: 769px)" srcset="/static/img/foto/Ward.png">
 					<img src="/static/img/foto/Ward_sm.png" alt="Ward Van Houdt" class="img-fluid">
 				</picture>
-				<p>Ward Van Houdt</p>
+				<p class="lead">Ward Van Houdt</p>
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
@@ -138,7 +138,7 @@
 					<source media="(min-width: 769px)" srcset="/static/img/foto/Thomas.png">
 					<img src="/static/img/foto/Thomas_sm.png" alt="Thomas Domen" class="img-fluid">
 				</picture>
-				<p>Thomas Domen</p>
+				<p class="lead">Thomas Domen</p>
 			</div><!-- /col-4 -->
 
 		</div><!-- /row -->

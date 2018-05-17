@@ -9,12 +9,6 @@ $logo-red: #e2492f;
 
 // FONTS
 
-// load font from ttf
-//@font-face {
-//	font-family: 'Hugs and Kisses xoxo';
-//	src: url("/static/img/logo/logo.ttf") format("truetype");
-//}
-
 @font-face {
 	font-family: 'Hugs and Kisses xoxo';
 	src: url('/static/img/logo/logo-webfont.woff2') format('woff2'), url('/static/img/logo/logo-webfont.woff') format('woff');
