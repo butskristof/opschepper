@@ -18,15 +18,15 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- STYLESHEETS AND LIBRARIES -->
-	<link rel="stylesheet" href="static/css/normalize.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<link rel="stylesheet" href="/static/css/normalize.min.css">
+	<link rel="stylesheet" href="/static/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Open+Sans" rel="stylesheet">
-	<link rel="stylesheet" href="static/css/main.css">
-	<link rel="stylesheet" href="static/css/custom.css">
+	<link rel="stylesheet" href="/static/css/main.min.css">
+	<link rel="stylesheet" href="/static/css/custom.css">
 	<?php
 	if ($this->e($extracss)) { ?>
 		<link rel="stylesheet" href="<?=$this->e($extracss)?>">
 	<?php }
 	?>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>

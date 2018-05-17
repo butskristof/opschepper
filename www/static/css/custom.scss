@@ -10,13 +10,20 @@ $logo-red: #e2492f;
 // FONTS
 
 // load font from ttf
+//@font-face {
+//	font-family: 'Hugs and Kisses xoxo';
+//	src: url("/static/img/logo/logo.ttf") format("truetype");
+//}
+
 @font-face {
 	font-family: 'Hugs and Kisses xoxo';
-	src: url("/static/img/logo/logo.ttf") format("truetype");
+	src: url('/static/img/logo/logo-webfont.woff2') format('woff2'), url('/static/img/logo/logo-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
 // set font variable
-$font-logo: 'Hugs and Kisses xoxo', serif;
+$font-logo: 'Hugs and Kisses xoxo', sans-serif;
 
 body {
 	padding-top: 5em; // adjust for sticky nav bar
