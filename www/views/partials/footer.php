@@ -1,7 +1,8 @@
 	<hr>
 
 	<footer class="container">
-		<p>&copy; <?=date("Y")?> Opschepper</p>
+		<p>&copy; <?=date("Y")?> Opschepper <br>
+		webdesign by <a href="https://www.github.com/butskristof" target="_blank">Kristof Buts</a></p>
 	</footer>
 
 	<script src="/static/js/vendor/modernizr-3.5.0.min.js"></script>
