@@ -12,12 +12,9 @@
 
 	<script src="/static/js/plugins.js"></script>
 
-<!--	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>-->
-
-	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 	<script>
 		window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-		ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+		ga('create','UA-70900108-6','auto');ga('send','pageview')
 	</script>
 	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
