@@ -7,9 +7,9 @@
 
 # THANKS
 
-    <name>
-	Ward Van Houdt
-	Laurens 
+	Laurens Somers -- founder
+	Ward Van Houdt -- founder
+	Thomas Domen -- founder
 
 # TECHNOLOGY COLOPHON
 

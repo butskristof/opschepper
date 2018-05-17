@@ -118,17 +118,26 @@
 		<div class="row">
 
 			<div class="col-4">
-				<img src="/static/img/foto/Laurens.png" alt="Laurens Somers" class="img-fluid">
+				<picture>
+					<source media="(min-width: 769px)" srcset="/static/img/foto/Laurens.png">
+					<img src="/static/img/foto/Laurens_sm.png" alt="Laurens Somers" class="img-fluid">
+				</picture>
 				<p>Laurens Somers</p>
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="/static/img/foto/Ward.png" alt="Ward Van Houdt" class="img-fluid">
+				<picture>
+					<source media="(min-width: 769px)" srcset="/static/img/foto/Ward.png">
+					<img src="/static/img/foto/Ward_sm.png" alt="Ward Van Houdt" class="img-fluid">
+				</picture>
 				<p>Ward Van Houdt</p>
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="/static/img/foto/Thomas.png" alt="Thomas Domen" class="img-fluid">
+				<picture>
+					<source media="(min-width: 769px)" srcset="/static/img/foto/Thomas.png">
+					<img src="/static/img/foto/Thomas_sm.png" alt="Thomas Domen" class="img-fluid">
+				</picture>
 				<p>Thomas Domen</p>
 			</div><!-- /col-4 -->
 
