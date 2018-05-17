@@ -12,7 +12,7 @@
 					</button>
 
 					<p>&nbsp;</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales ipsum vitae lacus cursus convallis.</p>
+					<p>Laat hieronder je gegevens achter, zodat wij jou kunnen contacteren wanneer de eerstvolgende Opschepavond doorgaat!</p>
 
 					<div class="form-group">
 						<label for="task">Ik wil</label>

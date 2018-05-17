@@ -62,20 +62,22 @@
 			<div class="col-md-4">
 
 				<img src="static/img/icons/icon1.svg" alt="Voedselpakket" class="img-fluid">
-				<h3>Wij verzamelen voedseloverschotten</h3>
+				<h3>Schrijf je in</h3>
+				<p>om te koken of om te eten</p>
 
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
 
 				<img src="static/img/icons/icon2.svg" alt="Oude vrouw en jonge man" class="img-fluid">
-				<h3>Boek als <br>
-					'eter/koker'</h3>
+				<h3>Wij verzamelen voedseloverschotten</h3>
+				<p>en stellen op basis hiervan voedselboxen samen, die we thuis leveren bij de ‘opscheppers’.</p>
 
 			</div><!-- /col-md-4 -->
 			<div class="col-md-4">
 
 				<img src="static/img/icons/icon3.svg" alt="Kookpot" class="img-fluid">
-				<h3>Enjoy & <br>save the environment</h3>
+				<h3>Geniet samen</h3>
+				<p>van een versbereide maaltijd terwijl voedselverspilling wordt tegengegaan!</p>
 
 			</div><!-- /col-md-4 -->
 
@@ -89,15 +91,15 @@
 
 		<div class="row" id="missie_row">
 
-			<div class="col-md-8">
+			<div class="col-md-7">
 
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aut haec tibi, Torquate, sunt vituperanda aut patrocinium voluptatis repudiandum. Quamquam tu hanc copiosiorem etiam soles dicere. Duo Reges: constructio interrete. Quid me istud rogas? Miserum hominem! Si dolor summum malum est, dici aliter non potest. Iam doloris medicamenta illa Epicurea tamquam de narthecio proment: Si gravis, brevis; Traditur, inquit, ab Epicuro ratio neglegendi doloris. Quodsi ipsam honestatem undique pertectam atque absolutam. Quis enim est, qui non videat haec esse in natura rerum tria? Bona autem corporis huic sunt, quod posterius posui, similiora.</p>
+				<p>Met Opschepper geloven wij in de kracht van samen eten. Opschepper vormt een brug tussen studenten die graag een versbereide maaltijd willen eten in de buurt en  mensen die de borden willen volscheppen in een gezellige sfeer, terwijl er via een leuke en sociale manier voedselverspilling wordt tegengegaan. Als lid van Opschepper leer je interessante mensen uit jouw buurt kennen en ontstaan onvergetelijke herinneringen terwijl je geniet van een versbereide maaltijd.</p>
 
 			</div><!-- /col-md-8 -->
 
-			<div class="col-md-4">
+			<div class="col-md-5">
 
-				<img src="http://placehold.it/400x300" alt="" class="img-fluid">
+				<img src="/static/img/foto/missie.jpg" alt="Sfeerbeeld Opschepper" class="img-fluid">
 
 			</div><!-- /col-md-4 -->
 		</div><!-- /row -->
@@ -116,23 +118,25 @@
 		<div class="row">
 
 			<div class="col-4">
-				<img src="/static/img/foto/Laurens.png" alt="Laurens" class="img-fluid">
+				<img src="/static/img/foto/Laurens.png" alt="Laurens Somers" class="img-fluid">
+				<p>Laurens Somers</p>
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="/static/img/foto/Ward.png" alt="Ward" class="img-fluid">
+				<img src="/static/img/foto/Ward.png" alt="Ward Van Houdt" class="img-fluid">
+				<p>Ward Van Houdt</p>
 			</div><!-- /col-4 -->
 
 			<div class="col-4">
-				<img src="/static/img/foto/Thomas.png" alt="Thomas" class="img-fluid">
+				<img src="/static/img/foto/Thomas.png" alt="Thomas Domen" class="img-fluid">
+				<p>Thomas Domen</p>
 			</div><!-- /col-4 -->
 
 		</div><!-- /row -->
 
 		<p class="lead">
-
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque ad tempus ad Pisonem omnes. De illis, cum volemus. Minime vero istorum quidem, inquit. Longum est enim ad omnia respondere, quae a te dicta sunt. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
-
+			Tijdens onze studie leerden we elkaar kennen en bedachten we Opschepper. <br>
+			Wij geloven dat er niets zo speciaal is als nieuwe, interessante mensen leren kennen terwijl je geniet van een lekkere, verse maaltijd!
 		</p>
 
 	</section>
