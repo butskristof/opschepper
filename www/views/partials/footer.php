@@ -30,7 +30,19 @@
 				url: url,
 				method: "GET",
 				dataType: "json",
-				data: $form.serialize()
+				data: $form.serialize(),
+				success: function (data) {
+					var confirmbox = document.querySelector("#applyConfirmation");
+					confirmbox.innerHTML = 'Uw gegevens werden opgeslagen, we contacteren u zo snel mogelijk.';
+					confirmbox.classList.add("alert-success")
+					confirmbox.style.display = 'block';
+				},
+				error: function (data) {
+					var confirmbox = document.querySelector("#applyConfirmation");
+					confirmbox.classList.add("alert-danger")
+					confirmbox.innerHTML = 'Er ging iets mis bij het opslaan van uw gegevens.';
+					confirmbox.style.display = 'block';
+				}
 			});
         });
 	</script>

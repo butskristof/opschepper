@@ -12,6 +12,7 @@
 					</button>
 
 					<p>&nbsp;</p>
+					<p id="applyConfirmation" class="alert">&nbsp;</p>
 					<p>Laat hieronder je gegevens achter, zodat wij jou kunnen contacteren wanneer de eerstvolgende Opschepavond doorgaat!</p>
 
 					<div class="form-group">
